@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+/* padding: 20px 80px; */
+color: rgba(140, 139, 139, 0.833);
+font-family: "Rubik", sans-serif;
+}
+.div-one{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 80px;
+    padding-top: 30px;
+}
+.p-one{
+    color: rgb(13, 13, 59);
+    font-weight: 600;
+    font-size: 35px;
+}
+.link-one{
+    text-decoration: none;
+    background-color: rgb(13, 13, 59);
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: white;
+}
+.div-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: black; */
+    justify-content: space-between;
+    margin-block: 50px;
+    padding-inline: 80px;
+}
+.heading-one{
+    color:rgb(13, 13, 59) ;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.p-two{
+    margin-bottom: 50px;
+
+}
+.img-one{
+    width: 400px;
+    border-radius: 140px;
+
+}
+.link-two{
+    text-decoration: none;
+    background-color: rgb(210, 77, 121);
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: white;
+}
+.div-three{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(210, 77, 121);
+    padding-block:80px 0px;
+    padding:20px;
+    border-radius: 15px;
+    width: 260px;
+    margin-block:15px;
+
+}
+.big-div-one{
+    display: flex;
+    width: fit-content;
+    margin-inline: auto;
+    gap: 30px; 
+    margin-bottom: 15px;  
+}
+.div-four{
+    /* padding-block: 40px 70px;
+    padding-inline: 20px 60px; */
+    background-color: white;
+    border-radius: 15px;
+    background-color: rgb(243, 242, 242);
+    width: 260px;
+    margin-block: 15px;
+    padding: 20px;
+}
+h3{
+    color:rgb(13, 13, 59);
+    margin-bottom: 10px;
+}
+.little-div{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(210, 77, 121);
+    border-radius: 20px;
+    margin-block: 5px 10px;
+}
+.p-three{
+    margin-block: 10px;
+    margin-bottom:30px ;
+}
+.link-three{
+    text-decoration: none;
+    color: rgb(210, 77, 121) ;
+}
+.div-last{
+    display: flex;
+    background-color:rgb(13, 13, 59);
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-block: 30px;
+    margin-top: 80px;
+    padding-inline: 120px;
+
+}
+.p-last{
+    color: white;
+}
+.link-last{
+    background-color:rgb(210, 77, 121) ;
+}
